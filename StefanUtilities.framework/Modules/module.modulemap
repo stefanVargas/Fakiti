@@ -1,0 +1,11 @@
+framework module StefanUtilities {
+  umbrella header "StefanUtilities.h"
+
+  export *
+  module * { export * }
+}
+
+module StefanUtilities.Swift {
+    header "StefanUtilities-Swift.h"
+    requires objc
+}

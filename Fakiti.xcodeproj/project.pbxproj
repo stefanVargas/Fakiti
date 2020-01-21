@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71C7287723D0C360008E7CAC /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7287623D0C360008E7CAC /* ApplicationCoordinator.swift */; };
+		71C7287923D0DCA0008E7CAC /* Holder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7287823D0DCA0008E7CAC /* Holder.swift */; };
+		71C7288723D10CCE008E7CAC /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7288623D10CCE008E7CAC /* HomeWorker.swift */; };
+		71C7288B23D23880008E7CAC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7288A23D23880008E7CAC /* LoginViewController.swift */; };
+		71C7288D23D24A84008E7CAC /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7288C23D24A84008E7CAC /* LoginInteractor.swift */; };
+		71C7288F23D24B26008E7CAC /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7288E23D24B26008E7CAC /* LoginPresenter.swift */; };
+		71C7289223D24B73008E7CAC /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7289123D24B73008E7CAC /* LoginModels.swift */; };
+		71C7289423D24B86008E7CAC /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7289323D24B86008E7CAC /* LoginRouter.swift */; };
+		71C7289623D24F48008E7CAC /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7289523D24F48008E7CAC /* LoginWorker.swift */; };
+		71C7289823D25746008E7CAC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7289723D25746008E7CAC /* Extensions.swift */; };
+		71C7289A23D26110008E7CAC /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C7289923D26110008E7CAC /* StartButton.swift */; };
+		71C728AC23D5D5B8008E7CAC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C728AB23D5D5B8008E7CAC /* CustomTextField.swift */; };
+		71C728AE23D5E94A008E7CAC /* APIServicesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C728AD23D5E94A008E7CAC /* APIServicesManager.swift */; };
+		71C728BE23D63EC4008E7CAC /* StefanUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C728BC23D63EC1008E7CAC /* StefanUtilities.framework */; };
+		71C728BF23D63EC4008E7CAC /* StefanUtilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71C728BC23D63EC1008E7CAC /* StefanUtilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71C728C123D6467C008E7CAC /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C728C023D6467C008E7CAC /* TitleView.swift */; };
+		71C728C523D69C37008E7CAC /* OptionsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C728C423D69C37008E7CAC /* OptionsCollectionCell.swift */; };
+		71C728C723D69DCB008E7CAC /* CollectionContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C728C623D69DCB008E7CAC /* CollectionContainerView.swift */; };
 		71FEA2F423D0ADEC002543FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA2F323D0ADEC002543FE /* AppDelegate.swift */; };
-		71FEA2F623D0ADEC002543FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA2F523D0ADEC002543FE /* SceneDelegate.swift */; };
-		71FEA2F823D0ADEC002543FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA2F723D0ADEC002543FE /* ViewController.swift */; };
-		71FEA2FB23D0ADEC002543FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FEA2F923D0ADEC002543FE /* Main.storyboard */; };
 		71FEA2FE23D0ADEC002543FE /* Fakiti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA2FC23D0ADEC002543FE /* Fakiti.xcdatamodeld */; };
 		71FEA30023D0ADF0002543FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71FEA2FF23D0ADF0002543FE /* Assets.xcassets */; };
 		71FEA30323D0ADF0002543FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FEA30123D0ADF0002543FE /* LaunchScreen.storyboard */; };
 		71FEA30E23D0ADF1002543FE /* FakitiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA30D23D0ADF1002543FE /* FakitiTests.swift */; };
+		71FEA32323D0BC48002543FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA32223D0BC48002543FE /* HomeViewController.swift */; };
+		71FEA32523D0BC57002543FE /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA32423D0BC57002543FE /* PayViewController.swift */; };
+		71FEA32C23D0BCE7002543FE /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA32B23D0BCE7002543FE /* HomePresenter.swift */; };
+		71FEA32E23D0BCFF002543FE /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA32D23D0BCFF002543FE /* HomeInteractor.swift */; };
+		71FEA33123D0BD2B002543FE /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA33023D0BD2B002543FE /* HomeModels.swift */; };
+		71FEA33323D0BD3F002543FE /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA33223D0BD3F002543FE /* HomeRouter.swift */; };
+		71FEA33723D0BDDF002543FE /* ChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEA33623D0BDDF002543FE /* ChargeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,12 +49,40 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		71C7287523D0C324008E7CAC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71C728BF23D63EC4008E7CAC /* StefanUtilities.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		71C7287623D0C360008E7CAC /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		71C7287823D0DCA0008E7CAC /* Holder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holder.swift; sourceTree = "<group>"; };
+		71C7288623D10CCE008E7CAC /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		71C7288A23D23880008E7CAC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		71C7288C23D24A84008E7CAC /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		71C7288E23D24B26008E7CAC /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		71C7289123D24B73008E7CAC /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		71C7289323D24B86008E7CAC /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		71C7289523D24F48008E7CAC /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		71C7289723D25746008E7CAC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		71C7289923D26110008E7CAC /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		71C728AB23D5D5B8008E7CAC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		71C728AD23D5E94A008E7CAC /* APIServicesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServicesManager.swift; sourceTree = "<group>"; };
+		71C728BC23D63EC1008E7CAC /* StefanUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StefanUtilities.framework; sourceTree = "<group>"; };
+		71C728C023D6467C008E7CAC /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		71C728C423D69C37008E7CAC /* OptionsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCollectionCell.swift; sourceTree = "<group>"; };
+		71C728C623D69DCB008E7CAC /* CollectionContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionContainerView.swift; sourceTree = "<group>"; };
 		71FEA2F023D0ADEC002543FE /* Fakiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fakiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FEA2F323D0ADEC002543FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71FEA2F523D0ADEC002543FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71FEA2F723D0ADEC002543FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		71FEA2FA23D0ADEC002543FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71FEA2FD23D0ADEC002543FE /* Fakiti.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fakiti.xcdatamodel; sourceTree = "<group>"; };
 		71FEA2FF23D0ADF0002543FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71FEA30223D0ADF0002543FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +90,13 @@
 		71FEA30923D0ADF1002543FE /* FakitiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FakitiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71FEA30D23D0ADF1002543FE /* FakitiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakitiTests.swift; sourceTree = "<group>"; };
 		71FEA30F23D0ADF1002543FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71FEA32223D0BC48002543FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		71FEA32423D0BC57002543FE /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		71FEA32B23D0BCE7002543FE /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		71FEA32D23D0BCFF002543FE /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		71FEA33023D0BD2B002543FE /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		71FEA33223D0BD3F002543FE /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		71FEA33623D0BDDF002543FE /* ChargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChargeViewController.swift; path = Fakiti/Scenes/Charge/ChargeViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C728BE23D63EC4008E7CAC /* StefanUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +118,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71C7287E23D0F392008E7CAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71C728C023D6467C008E7CAC /* TitleView.swift */,
+				71C728C423D69C37008E7CAC /* OptionsCollectionCell.swift */,
+				71C728C623D69DCB008E7CAC /* CollectionContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		71C7288123D0F4A2008E7CAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				71C7289723D25746008E7CAC /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		71C7288823D1F5C7008E7CAC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				71C728AD23D5E94A008E7CAC /* APIServicesManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		71C7288923D23868008E7CAC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				71C7289023D24B41008E7CAC /* Views */,
+				71C7288A23D23880008E7CAC /* LoginViewController.swift */,
+				71C7288C23D24A84008E7CAC /* LoginInteractor.swift */,
+				71C7288E23D24B26008E7CAC /* LoginPresenter.swift */,
+				71C7289123D24B73008E7CAC /* LoginModels.swift */,
+				71C7289523D24F48008E7CAC /* LoginWorker.swift */,
+				71C7289323D24B86008E7CAC /* LoginRouter.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		71C7289023D24B41008E7CAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71C7289923D26110008E7CAC /* StartButton.swift */,
+				71C728AB23D5D5B8008E7CAC /* CustomTextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		71FEA2E723D0ADEC002543FE = {
 			isa = PBXGroup;
 			children = (
+				71C728BC23D63EC1008E7CAC /* StefanUtilities.framework */,
 				71FEA2F223D0ADEC002543FE /* Fakiti */,
 				71FEA30C23D0ADF1002543FE /* FakitiTests */,
 				71FEA2F123D0ADEC002543FE /* Products */,
@@ -81,10 +189,12 @@
 		71FEA2F223D0ADEC002543FE /* Fakiti */ = {
 			isa = PBXGroup;
 			children = (
+				71FEA31823D0AFD9002543FE /* Models */,
+				71C7288823D1F5C7008E7CAC /* Services */,
+				71FEA31F23D0B673002543FE /* Scenes */,
+				71C7288123D0F4A2008E7CAC /* Utils */,
 				71FEA2F323D0ADEC002543FE /* AppDelegate.swift */,
-				71FEA2F523D0ADEC002543FE /* SceneDelegate.swift */,
-				71FEA2F723D0ADEC002543FE /* ViewController.swift */,
-				71FEA2F923D0ADEC002543FE /* Main.storyboard */,
+				71C7287623D0C360008E7CAC /* ApplicationCoordinator.swift */,
 				71FEA2FF23D0ADF0002543FE /* Assets.xcassets */,
 				71FEA30123D0ADF0002543FE /* LaunchScreen.storyboard */,
 				71FEA30423D0ADF0002543FE /* Info.plist */,
@@ -102,6 +212,55 @@
 			path = FakitiTests;
 			sourceTree = "<group>";
 		};
+		71FEA31823D0AFD9002543FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				71C7287823D0DCA0008E7CAC /* Holder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		71FEA31F23D0B673002543FE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				71C7288923D23868008E7CAC /* Login */,
+				71FEA32023D0B995002543FE /* Home */,
+				71FEA32123D0BBCA002543FE /* Pay */,
+				71FEA33523D0BDCB002543FE /* Charge */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		71FEA32023D0B995002543FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				71C7287E23D0F392008E7CAC /* Views */,
+				71FEA32223D0BC48002543FE /* HomeViewController.swift */,
+				71FEA32D23D0BCFF002543FE /* HomeInteractor.swift */,
+				71FEA32B23D0BCE7002543FE /* HomePresenter.swift */,
+				71FEA33023D0BD2B002543FE /* HomeModels.swift */,
+				71C7288623D10CCE008E7CAC /* HomeWorker.swift */,
+				71FEA33223D0BD3F002543FE /* HomeRouter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		71FEA32123D0BBCA002543FE /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				71FEA32423D0BC57002543FE /* PayViewController.swift */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		71FEA33523D0BDCB002543FE /* Charge */ = {
+			isa = PBXGroup;
+			children = (
+				71FEA33623D0BDDF002543FE /* ChargeViewController.swift */,
+			);
+			path = Charge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +271,7 @@
 				71FEA2EC23D0ADEC002543FE /* Sources */,
 				71FEA2ED23D0ADEC002543FE /* Frameworks */,
 				71FEA2EE23D0ADEC002543FE /* Resources */,
+				71C7287523D0C324008E7CAC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,7 +345,6 @@
 			files = (
 				71FEA30323D0ADF0002543FE /* LaunchScreen.storyboard in Resources */,
 				71FEA30023D0ADF0002543FE /* Assets.xcassets in Resources */,
-				71FEA2FB23D0ADEC002543FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,10 +362,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FEA2F823D0ADEC002543FE /* ViewController.swift in Sources */,
+				71C7288F23D24B26008E7CAC /* LoginPresenter.swift in Sources */,
+				71C7288B23D23880008E7CAC /* LoginViewController.swift in Sources */,
+				71FEA33123D0BD2B002543FE /* HomeModels.swift in Sources */,
+				71FEA33723D0BDDF002543FE /* ChargeViewController.swift in Sources */,
+				71C7287923D0DCA0008E7CAC /* Holder.swift in Sources */,
+				71FEA32C23D0BCE7002543FE /* HomePresenter.swift in Sources */,
+				71C728C523D69C37008E7CAC /* OptionsCollectionCell.swift in Sources */,
+				71C7289A23D26110008E7CAC /* StartButton.swift in Sources */,
 				71FEA2F423D0ADEC002543FE /* AppDelegate.swift in Sources */,
-				71FEA2F623D0ADEC002543FE /* SceneDelegate.swift in Sources */,
 				71FEA2FE23D0ADEC002543FE /* Fakiti.xcdatamodeld in Sources */,
+				71C7287723D0C360008E7CAC /* ApplicationCoordinator.swift in Sources */,
+				71C7288D23D24A84008E7CAC /* LoginInteractor.swift in Sources */,
+				71FEA32323D0BC48002543FE /* HomeViewController.swift in Sources */,
+				71C728AC23D5D5B8008E7CAC /* CustomTextField.swift in Sources */,
+				71C7289223D24B73008E7CAC /* LoginModels.swift in Sources */,
+				71C728AE23D5E94A008E7CAC /* APIServicesManager.swift in Sources */,
+				71C7288723D10CCE008E7CAC /* HomeWorker.swift in Sources */,
+				71C7289423D24B86008E7CAC /* LoginRouter.swift in Sources */,
+				71C7289823D25746008E7CAC /* Extensions.swift in Sources */,
+				71FEA32523D0BC57002543FE /* PayViewController.swift in Sources */,
+				71FEA33323D0BD3F002543FE /* HomeRouter.swift in Sources */,
+				71C7289623D24F48008E7CAC /* LoginWorker.swift in Sources */,
+				71FEA32E23D0BCFF002543FE /* HomeInteractor.swift in Sources */,
+				71C728C123D6467C008E7CAC /* TitleView.swift in Sources */,
+				71C728C723D69DCB008E7CAC /* CollectionContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71FEA2F923D0ADEC002543FE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71FEA2FA23D0ADEC002543FE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71FEA30123D0ADF0002543FE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -352,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -368,6 +540,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CUPVNHUL72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Fakiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,7 +552,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.Fakiti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,6 +562,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CUPVNHUL72;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Fakiti/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -394,7 +574,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stefan.Fakiti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
